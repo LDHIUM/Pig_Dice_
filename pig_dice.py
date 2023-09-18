@@ -10,5 +10,6 @@ while True:
         bank += a
         if bank >= 50:
             print('bank가 50이 넘었습니다. 승리하였습니다.')
+            break
         else:
             print(f"Bank는 {bank}입니다.")
